@@ -1,0 +1,165 @@
+﻿@{
+    ViewData["Title"] = "ABC Retail Dashboard";
+}
+
+<div class="container mt-5">
+    <div class="text-center mb-5">
+        <h1 class="display-4 fw-bold">ABC Retail – Cloud Storage</h1>
+        <p class="lead text-muted">Manage Customers, Products, Orders, and Contracts</p>
+    </div>
+
+    <div class="row g-4">
+        <!-- Table Storage -->
+        <div class="col-md-6">
+            <div class="card shadow-sm border-0 h-100">
+                <div class="card-body">
+                    <h3 class="card-title text-primary">Customer & Product Info</h3>
+                    <form method="post" asp-action="AddTable" class="row g-2">
+                        <div class="col-md-5">
+                            <input class="form-control" name="name" placeholder="Customer Name" required />
+                        </div>
+                        <div class="col-md-5">
+                            <input class="form-control" name="product" placeholder="Product" required />
+                        </div>
+                        <div class="col-md-2 d-grid">
+                            <button type="submit" class="btn btn-primary">Save</button>
+                        </div>
+                    </form>
+
+                    @if (ViewBag.TableData != null && ViewBag.TableData.Count > 0)
+                    {
+                        <button class="btn btn-outline-primary btn-sm mt-2" type="button" data-bs-toggle="collapse" data-bs-target="#tableDataTable" aria-expanded="false">
+                            View Saved Customers
+                        </button>
+                        <div class="collapse mt-2" id="tableDataTable">
+                            <table class="table table-striped table-bordered mt-2">
+                                <thead class="table-dark">
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Product</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in ViewBag.TableData)
+                                    {
+                                        <tr>
+                                            <td>@item.Name</td>
+                                            <td>@item.Product</td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <!-- Blob Storage -->
+        <div class="col-md-6">
+            <div class="card shadow-sm border-0 h-100">
+                <div class="card-body">
+                    <h3 class="card-title text-success">Product Images</h3>
+                    <form method="post" enctype="multipart/form-data" asp-action="UploadBlob" class="d-flex gap-2">
+                        <input type="file" class="form-control" name="file" required />
+                        <button type="submit" class="btn btn-success">Upload</button>
+                    </form>
+
+                    @if (ViewBag.BlobData != null && ViewBag.BlobData.Count > 0)
+                    {
+                        <button class="btn btn-outline-success btn-sm mt-2" type="button" data-bs-toggle="collapse" data-bs-target="#blobDataTable" aria-expanded="false">
+                            View Uploaded Images
+                        </button>
+                        <div class="collapse mt-2" id="blobDataTable">
+                            <div class="row g-3">
+                                @foreach (var blob in ViewBag.BlobData)
+                                {
+                                    <div class="col-md-3">
+                                        <div class="card shadow-sm">
+                                            <img src="@blob.Url" class="card-img-top" style="height:150px; object-fit:cover;" />
+                                            <div class="card-body text-center">
+                                                <small>@blob.FileName</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <!-- Queue Storage -->
+        <div class="col-md-6">
+            <div class="card shadow-sm border-0 h-100">
+                <div class="card-body">
+                    <h3 class="card-title text-warning">Orders</h3>
+                    <form method="post" asp-action="AddQueue" class="d-flex gap-2">
+                        <input class="form-control" name="message" placeholder="Order message" required />
+                        <button type="submit" class="btn btn-warning">Send</button>
+                    </form>
+
+                    @if (ViewBag.QueueData != null && ViewBag.QueueData.Count > 0)
+                    {
+                        <button class="btn btn-outline-warning btn-sm mt-2" type="button" data-bs-toggle="collapse" data-bs-target="#queueDataTable" aria-expanded="false">
+                            View Queue Messages
+                        </button>
+                        <div class="collapse mt-2" id="queueDataTable">
+                            <table class="table table-striped table-bordered mt-2">
+                                <thead class="table-dark">
+                                    <tr>
+                                        <th>Message</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var msg in ViewBag.QueueData)
+                                    {
+                                        <tr><td>@msg</td></tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <!-- File Share -->
+        <div class="col-md-6">
+            <div class="card shadow-sm border-0 h-100">
+                <div class="card-body">
+                    <h3 class="card-title text-info">Contracts</h3>
+                    <form method="post" enctype="multipart/form-data" asp-action="UploadFile" class="d-flex gap-2">
+                        <input type="file" class="form-control" name="file" required />
+                        <button type="submit" class="btn btn-info">Upload</button>
+                    </form>
+
+                    @if (ViewBag.FileData != null && ViewBag.FileData.Count > 0)
+                    {
+                        <button class="btn btn-outline-info btn-sm mt-2" type="button" data-bs-toggle="collapse" data-bs-target="#fileDataTable" aria-expanded="false">
+                            View Uploaded Files
+                        </button>
+                        <div class="collapse mt-2" id="fileDataTable">
+                            <ul class="list-group mt-2">
+                                @foreach (var file in ViewBag.FileData)
+                                {
+                                    <li class="list-group-item">
+                                        <a href="@file.Url" target="_blank">@file.FileName</a>
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @if (ViewBag.Result != null)
+    {
+        <div class="alert alert-info mt-4 text-center">
+            @ViewBag.Result
+        </div>
+    }
+</div>

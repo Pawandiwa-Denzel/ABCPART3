@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Database";
+}
+<h1>@ViewData["Title"]</h1>
+<h2>Customer Data from Azure SQL</h2>
+<table class="table">
+    <thead><tr><th>Name</th></tr></thead>
+    <tbody>
+        @foreach (var name in Model)
+        {
+            <tr><td>@name</td></tr>
+        }
+    </tbody>
+</table>
+
+
+
+

@@ -1,0 +1,188 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lab_services_student\\source\\repos\\ABC_RetailApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F8F489B4-1043-41EE-8DFE-98147F0FD51A}|ABC_RetailApp\\ABC_RetailApp.csproj|c:\\users\\lab_services_student\\source\\repos\\abc_retailapp\\abc_retailapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F8F489B4-1043-41EE-8DFE-98147F0FD51A}|ABC_RetailApp\\ABC_RetailApp.csproj|solutionrelative:abc_retailapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8F489B4-1043-41EE-8DFE-98147F0FD51A}|ABC_RetailApp\\ABC_RetailApp.csproj|c:\\users\\lab_services_student\\source\\repos\\abc_retailapp\\abc_retailapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8F489B4-1043-41EE-8DFE-98147F0FD51A}|ABC_RetailApp\\ABC_RetailApp.csproj|solutionrelative:abc_retailapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8F489B4-1043-41EE-8DFE-98147F0FD51A}|ABC_RetailApp\\ABC_RetailApp.csproj|c:\\users\\lab_services_student\\source\\repos\\abc_retailapp\\abc_retailapp\\services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8F489B4-1043-41EE-8DFE-98147F0FD51A}|ABC_RetailApp\\ABC_RetailApp.csproj|solutionrelative:abc_retailapp\\services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8F489B4-1043-41EE-8DFE-98147F0FD51A}|ABC_RetailApp\\ABC_RetailApp.csproj|c:\\users\\lab_services_student\\source\\repos\\abc_retailapp\\abc_retailapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8F489B4-1043-41EE-8DFE-98147F0FD51A}|ABC_RetailApp\\ABC_RetailApp.csproj|solutionrelative:abc_retailapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8F489B4-1043-41EE-8DFE-98147F0FD51A}|ABC_RetailApp\\ABC_RetailApp.csproj|c:\\users\\lab_services_student\\source\\repos\\abc_retailapp\\abc_retailapp\\views\\home\\database.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8F489B4-1043-41EE-8DFE-98147F0FD51A}|ABC_RetailApp\\ABC_RetailApp.csproj|solutionrelative:abc_retailapp\\views\\home\\database.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8F489B4-1043-41EE-8DFE-98147F0FD51A}|ABC_RetailApp\\ABC_RetailApp.csproj|c:\\users\\lab_services_student\\source\\repos\\abc_retailapp\\abc_retailapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8F489B4-1043-41EE-8DFE-98147F0FD51A}|ABC_RetailApp\\ABC_RetailApp.csproj|solutionrelative:abc_retailapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8F489B4-1043-41EE-8DFE-98147F0FD51A}|ABC_RetailApp\\ABC_RetailApp.csproj|c:\\users\\lab_services_student\\source\\repos\\abc_retailapp\\abc_retailapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8F489B4-1043-41EE-8DFE-98147F0FD51A}|ABC_RetailApp\\ABC_RetailApp.csproj|solutionrelative:abc_retailapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8F489B4-1043-41EE-8DFE-98147F0FD51A}|ABC_RetailApp\\ABC_RetailApp.csproj|c:\\users\\lab_services_student\\source\\repos\\abc_retailapp\\abc_retailapp\\models\\customerproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8F489B4-1043-41EE-8DFE-98147F0FD51A}|ABC_RetailApp\\ABC_RetailApp.csproj|solutionrelative:abc_retailapp\\models\\customerproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8F489B4-1043-41EE-8DFE-98147F0FD51A}|ABC_RetailApp\\ABC_RetailApp.csproj|c:\\users\\lab_services_student\\source\\repos\\abc_retailapp\\abc_retailapp\\models\\uploadedfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8F489B4-1043-41EE-8DFE-98147F0FD51A}|ABC_RetailApp\\ABC_RetailApp.csproj|solutionrelative:abc_retailapp\\models\\uploadedfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8F489B4-1043-41EE-8DFE-98147F0FD51A}|ABC_RetailApp\\ABC_RetailApp.csproj|c:\\users\\lab_services_student\\source\\repos\\abc_retailapp\\abc_retailapp\\services\\functionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8F489B4-1043-41EE-8DFE-98147F0FD51A}|ABC_RetailApp\\ABC_RetailApp.csproj|solutionrelative:abc_retailapp\\services\\functionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Database.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABC_RetailApp\\ABC_RetailApp\\Views\\Home\\Database.cshtml",
+              "RelativeDocumentMoniker": "ABC_RetailApp\\Views\\Home\\Database.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABC_RetailApp\\ABC_RetailApp\\Views\\Home\\Database.cshtml",
+              "RelativeToolTip": "ABC_RetailApp\\Views\\Home\\Database.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T16:16:01.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DatabaseService.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABC_RetailApp\\ABC_RetailApp\\Services\\DatabaseService.cs",
+              "RelativeDocumentMoniker": "ABC_RetailApp\\Services\\DatabaseService.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABC_RetailApp\\ABC_RetailApp\\Services\\DatabaseService.cs",
+              "RelativeToolTip": "ABC_RetailApp\\Services\\DatabaseService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAiwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T16:06:23.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UploadedFile.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABC_RetailApp\\ABC_RetailApp\\Models\\UploadedFile.cs",
+              "RelativeDocumentMoniker": "ABC_RetailApp\\Models\\UploadedFile.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABC_RetailApp\\ABC_RetailApp\\Models\\UploadedFile.cs",
+              "RelativeToolTip": "ABC_RetailApp\\Models\\UploadedFile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T12:47:51.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomerProduct.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABC_RetailApp\\ABC_RetailApp\\Models\\CustomerProduct.cs",
+              "RelativeDocumentMoniker": "ABC_RetailApp\\Models\\CustomerProduct.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABC_RetailApp\\ABC_RetailApp\\Models\\CustomerProduct.cs",
+              "RelativeToolTip": "ABC_RetailApp\\Models\\CustomerProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T12:45:02.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABC_RetailApp\\ABC_RetailApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ABC_RetailApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABC_RetailApp\\ABC_RetailApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ABC_RetailApp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAiwHEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T10:11:31.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABC_RetailApp\\ABC_RetailApp\\appsettings.json",
+              "RelativeDocumentMoniker": "ABC_RetailApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABC_RetailApp\\ABC_RetailApp\\appsettings.json",
+              "RelativeToolTip": "ABC_RetailApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-06T10:05:18.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABC_RetailApp\\ABC_RetailApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ABC_RetailApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABC_RetailApp\\ABC_RetailApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ABC_RetailApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-06T09:38:32.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABC_RetailApp\\ABC_RetailApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ABC_RetailApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABC_RetailApp\\ABC_RetailApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ABC_RetailApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-06T09:34:19.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABC_RetailApp\\ABC_RetailApp\\Program.cs",
+              "RelativeDocumentMoniker": "ABC_RetailApp\\Program.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABC_RetailApp\\ABC_RetailApp\\Program.cs",
+              "RelativeToolTip": "ABC_RetailApp\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T09:28:33.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FunctionService.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABC_RetailApp\\ABC_RetailApp\\Services\\FunctionService.cs",
+              "RelativeDocumentMoniker": "ABC_RetailApp\\Services\\FunctionService.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABC_RetailApp\\ABC_RetailApp\\Services\\FunctionService.cs",
+              "RelativeToolTip": "ABC_RetailApp\\Services\\FunctionService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T09:27:22.063Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
